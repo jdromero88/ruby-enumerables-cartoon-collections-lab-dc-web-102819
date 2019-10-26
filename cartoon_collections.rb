@@ -4,10 +4,7 @@ def roll_call_dwarves(array)# code an argument here
   while i < array.length do
     puts array[i].join("#{i}.")
 
-    array.each_with_index{ |index, item|
-      array[index] = item
-    }
-    i+=1
+
   end
 
 }
