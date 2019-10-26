@@ -10,8 +10,6 @@ def roll_call_dwarves(array)# code an argument here
     i+=1
   end
 
-  %w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
 }
 end
 
